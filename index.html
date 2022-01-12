@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <!-- Meta tags Obrigatórias -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="node_modules/bootstrap/compiler/bootstrap.css">
+  <link rel="stylesheet" href="style/css/style.css">
+  <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/fontawesome.css">
+  <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/brands.css">
+  <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/solid.css">
+  <title>titulo site</title>
+</head>
+
+<body>
+
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-gradient-primary">
+    <div class="container">
+      <a class="navbar-brand h1 mb-0" href="#">titulo do site</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsite">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="colapse navbar-collapse" id="navbarsite">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Perfil</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Serviços</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Depoimentos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">contatos</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav nl-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="navdrop">
+              Social
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Face</a>
+              <a class="dropdown-item" href="#">Zap</a>
+              <a class="dropdown-item" href="#">Insta</a>
+              <a class="dropdown-item" href="#">TT</a>
+            </div>
+          </li>
+        </ul>
+        <form class="form-inline">
+          <input class="form-control ml-4 mr-2" type="search" placeholder="Buscar...">
+          <button class="btn btn-dark" type="submit">OK</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- carrosel -->
+
+  <div id="caroselsite" class="carousel slide" data-ride="carousel">
+
+    <ol class="carousel-indicators">
+      <li data-target="#caroselsite" data-slide-to="0" class="active"></li>
+      <li data-target="#caroselsite" data-slide-to="1"></li>
+      <li data-target="#caroselsite" data-slide-to="2"></li>
+    </ol>
+
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/img1.jpg" class="img-fluid d-block" alt="1">
+        <div class="carousel-caption d-none d-md-block">
+          <h1>Texto Grande</h1>
+          <p class="lead">Texto Pequeno</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/img2.jpg" class="img-fluid d-block" alt="2">
+        <div class="carousel-caption d-none d-md-block">
+          <h1>Texto Grande</h1>
+          <p class="lead">Texto Pequeno</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/img3.jpg" class="img-fluid d-block" alt="3">
+        <div class="carousel-caption d-none d-md-block">
+          <h1>Texto Grande</h1>
+          <p class="lead">Texto Pequeno</p>
+        </div>
+      </div>
+    </div>
+
+    <a class="carousel-control-prev" href="#caroselsite" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+      <span class="sr-only">Anterior</span>
+    </a>
+
+    <a class="carousel-control-next" href="#caroselsite" role="button" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+      <span class="sr-only">Avançar</span>
+    </a>
+
+  </div>
+
+  <!-- textos -->
+
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center mt-5">
+        <h1 class="display-3"><i class="fas fa-cat text-primary"></i> Titulo grande</h1>
+        <p>Descriçao titulo</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- nav lipps -->
+
+  <div class="row">
+    <div class="col-3">
+      <nav id="navbarvertical" class="navbar navbar-light bg-light">
+        <nav class="nav nav-pills flex-column">
+          <a href="#item1" class="nav-link">item 1</a>
+          <nav class="nav nav-pills flex-column ">
+            <a href="#sitem1" class="nav-link ml-3">sub item 1</a>
+            <a href="#sitem2" class="nav-link ml-3">sub item 2</a>
+            <a href="#sitem3" class="nav-link ml-3">sub item 3</a>
+          </nav>
+          <a href="#item2" class="nav-link mt-2">item 2</a>
+          <a href="#item3" class="nav-link mt-2">item 3</a>
+        </nav>
+      </nav>
+
+    </div>
+    <div class="col-9">
+      <div data-spy="scroll" data-target="#navbarvertical" data-offset="0" class="scrollspySite">
+
+        <h4 id="item1">Titulo</h4>
+        <p>Duis efficitur imperdiet justo ut gravida. Nulla vehicula euismod tortor, eu sollicitudin mi varius ut. Duis
+          vel sapien vehicula, condimentum eros nec, elementum elit. Donec ac ligula et nisl tempor dapibus id ac
+          libero. Suspendisse scelerisque eget odio ac posuere. Mauris viverra turpis massa, vel efficitur nisl ultrices
+          ac. Curabitur blandit, mi quis tempus porta, sem magna pellentesque augue, ullamcorper porta nisl ex sed elit.
+          In vel ultricies libero, at eleifend dolor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+          posuere cubilia curae;</p>
+        <h5 id="sitem1">Sub Titulo 1</h5>
+        <p>Sed posuere lacus in enim ultrices euismod. Morbi sed nisi eget turpis porttitor ornare non a dui. Cras nec
+          justo efficitur, fringilla arcu quis, posuere neque. Mauris rutrum neque sit amet molestie eleifend. Ut
+          blandit arcu vitae velit ultrices, et interdum sapien condimentum. Aliquam tempus nunc nec vehicula porttitor.
+        </p>
+        <h5 id="sitem2">Sub Titulo 2</h5>
+        <p>Sed posuere lacus in enim ultrices euismod. Morbi sed nisi eget turpis porttitor ornare non a dui. Cras nec
+          justo efficitur, fringilla arcu quis, posuere neque. Mauris rutrum neque sit amet molestie eleifend. Ut
+          blandit arcu vitae velit ultrices, et interdum sapien condimentum. Aliquam tempus nunc nec vehicula porttitor.
+        </p>
+        <h5 id="sitem3">Sub Titulo 3</h5>
+        <p>Sed posuere lacus in enim ultrices euismod. Morbi sed nisi eget turpis porttitor ornare non a dui. Cras nec
+          justo efficitur, fringilla arcu quis, posuere neque. Mauris rutrum neque sit amet molestie eleifend. Ut
+          blandit arcu vitae velit ultrices, et interdum sapien condimentum. Aliquam tempus nunc nec vehicula porttitor.
+        </p>
+        <h4 id="item2">Titulo 2</h4>
+        <p>Duis efficitur imperdiet justo ut gravida. Nulla vehicula euismod tortor, eu sollicitudin mi
+          varius ut. Duis
+          vel sapien vehicula, condimentum eros nec, elementum elit. Donec ac ligula et nisl tempor dapibus id ac
+          libero. Suspendisse scelerisque eget odio ac posuere. Mauris viverra turpis massa, vel efficitur nisl ultrices
+          ac. Curabitur blandit, mi quis tempus porta, sem magna pellentesque augue, ullamcorper porta nisl ex sed elit.
+          In vel ultricies libero, at eleifend dolor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+          posuere cubilia curae;</p>
+        <h4 id="item3">Titulo 3</h4>
+        <p>Duis efficitur imperdiet justo ut gravida. Nulla vehicula euismod tortor, eu sollicitudin mi varius ut. Duis
+          vel sapien vehicula, condimentum eros nec, elementum elit. Donec ac ligula et nisl tempor dapibus id ac
+          libero. Suspendisse scelerisque eget odio ac posuere. Mauris viverra turpis massa, vel efficitur nisl ultrices
+          ac. Curabitur blandit, mi quis tempus porta, sem magna pellentesque augue, ullamcorper porta nisl ex sed elit.
+          In vel ultricies libero, at eleifend dolor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+          posuere cubilia curae;</p>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- cards -->
+
+  <div class="row mb-5 mt-5 ml-2 mr-2">
+    <div class="col-sm-4">
+      <div class="card">
+        <img class="card-img-top" src="img/cimg1.jpg" alt="card imagem">
+        <div class="card-body">
+          <h4 class="card-title">Titulo card</h4>
+          <h6 class="card-subtitle mb-2 text-muted">Sub Titulo</h6>
+          <p class="card-text">Proin pellentesque nulla dolor, et consequat purus commodo et. Suspendisse feugiat
+            convallis pretium.</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item"> adipiscing elit</li>
+          <li class="list-group-item"> pellentesque congue</li>
+          <li class="list-group-item"> aipsum arcu lacinia</li>
+        </ul>
+        <div class="card-body">
+          <a href="#" class="card-link" data-toggle="modal" data-target="#sitemodal">modal</a>
+          <a href="#" class="card-link">link 2</a>
+        </div>
+        <div class="card-footer text-muted">
+          Rodapé
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-4">
+      <div class="card">
+        <img class="card-img-top" src="img/cimg2.png" alt="card imagem">
+        <div class="card-body">
+          <h4 class="card-title">Titulo card</h4>
+          <h6 class="card-subtitle mb-2 text-muted">Sub Titulo</h6>
+          <p class="card-text">Proin pellentesque nulla dolor, et consequat purus commodo et. Suspendisse feugiat
+            convallis pretium.</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item"> adipiscing elit</li>
+          <li class="list-group-item"> pellentesque congue</li>
+          <li class="list-group-item"> aipsum arcu lacinia</li>
+        </ul>
+        <div class="card-body">
+          <a href="#" class="card-link">link</a>
+          <a href="#" class="card-link">link 2</a>
+        </div>
+        <div class="card-footer text-muted">
+          Rodapé
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-4">
+      <div class="card">
+        <img class="card-img-top" src="img/cimg3.png" alt="card imagem">
+        <div class="card-body">
+          <h4 class="card-title">Titulo card</h4>
+          <h6 class="card-subtitle mb-2 text-muted">Sub Titulo</h6>
+          <p class="card-text">Proin pellentesque nulla dolor, et consequat purus commodo et. Suspendisse feugiat
+            convallis pretium.</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item"> adipiscing elit</li>
+          <li class="list-group-item"> pellentesque congue</li>
+          <li class="list-group-item"> aipsum arcu lacinia</li>
+        </ul>
+        <div class="card-body">
+          <a href="#" class="card-link">link</a>
+          <a href="#" class="card-link">link 2</a>
+        </div>
+        <div class="card-footer text-muted">
+          Rodapé
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- jumbotron -->
+
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h1 class="display-4"><i class="fas fa-compact-disc text-primary"></i> Titulo</h1>
+          <p class="lead"> Praesent vitae turpis cursus leo efficitur scelerisque ut mattis mi. Fusce diam dui,
+            sollicitudin vitae massa aliquet, interdum tincidunt mauris</p>
+          <hr>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <ul class="nav nav-pills justify-content-center mb-4" id="pills-nav" role="tablist">
+            <li class="nav-item">
+              <a href="#nav-item-01" class="nav-link active" id="nav-pills-01" data-toggle="pill">nav item 01</a>
+            </li>
+            <li class="nav-item">
+              <a href="#nav-item-02" class="nav-link" id="nav-pills-02" data-toggle="pill">nav item 02</a>
+            </li>
+            <li class="nav-item">
+              <a href="#nav-item-03" class="nav-link" id="nav-pills-03" data-toggle="pill">nav item 03</a>
+            </li>
+          </ul>
+
+          <div class="tab-content" id="nav-pills-content">
+            <div class="tab-pane fade show active" id="nav-item-01" role="tabpanel">
+              <div class="row">
+                <div class="col-sm-6">
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/tDYU3pLd-1I"
+                      frameborder="0"></iframe>
+
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <p>Descriçao</p>
+                </div>
+              </div>
+
+            </div>
+            <div class="tab-pane fade  " id="nav-item-02" role="tabpanel">
+
+              ...02
+
+            </div>
+            <div class="tab-pane fade  " id="nav-item-03" role="tabpanel">
+
+              ...03
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- formulario -->
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center my-5">
+        <h1 class="display-4"><i class="fas fa-paper-plane text-primary"></i> Titulo form</h1>
+      </div>
+    </div>
+    <div class="row justify-content-center mb-5">
+      <div class="col-sm-12 col-md-10 col-lg-8">
+        <form action="">
+          <div class="form-row">
+            <div class="form-group col-sm-6">
+              <label for="inputnome">
+                Seu nome
+              </label>
+              <input type="text" class="form-control" id="inputnome" placeholder="nome">
+            </div>
+            <div class="form-group col-sm-6">
+              <label for="inputsobrenome">
+                Seu sobrenome
+              </label>
+              <input type="text" class="form-control" id="inputsobrenome" placeholder="sobrenome">
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group col-sm-12">
+              <label for="inputend">
+                Seu endereço
+              </label>
+              <input type="text" class="form-control" id="inputend" placeholder="Endereço Completo">
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-grupo col-sm-6">
+              <label for="inputcidade">
+                Sua cidade
+              </label>
+              <input type="text" class="form-control" id="inputcidade" placeholder="Cidade">
+            </div>
+            <div class="form-grupo col-sm-4">
+              <label for="inputest">
+                Seu estado
+              </label>
+              <select name="" id="inputest" class="form-control">
+                <option selected value="">Escolha...</option>
+                <option value="">...</option>
+                <option value="">...</option>
+                <option value="">...</option>
+                <option value="">...</option>
+              </select>
+            </div>
+            <div class="form-grupo col-sm-2">
+              <label for="inputcep">
+                Sue cep
+              </label>
+              <input type="text" class="form-control" id="inputcep" placeholder="Cidade">
+            </div>
+          </div>
+          <div class="form-row mt-3">
+            <div class="form-group col-sm-12">
+              <div class="form-check">
+                <label for="" class="form-check-label">
+                  <input class="form-check-input" type="checkbox">Desejo receber novidades por e-mail
+                </label>
+              </div>
+            </div>
+          </div>
+          <div class="form-row">
+            <button type="submit" class="btn btn-primary">Enviar</button>
+            <a tabindex="0" class="btn btn-secondary ml-2" role="button" data-toggle="popover" data-placement="right"
+              data-trigger="focus" title="popover" data-content="texto popover">ajuda</a>
+          </div>
+        </form>
+      </div>
+    </div>
+    <!-- rodapé -->
+    <div class="row">
+      <div class="col-12 mb-3">
+        <hr>
+      </div>
+      <div class="col-sm-4">
+        <h3>Rodapé</h3>
+        <p>Sed vulputate aliquam dapibus. Ut accumsan non dolor a cursus. Aenean augue lorem, tempor at felis pulvinar,
+          porttitor lacinia augue. Proin felis dolor, egestas ac leo eu, rutrum molestie nisi.</p>
+        <p> Donec scelerisque neque quis suscipit mattis. Phasellus sit amet vulputate tellus.</p>
+      </div>
+      <div class="col-sm-4">
+        <h3>Menu</h3>
+        <div class="list-group text-center">
+          <a href="#" class="list-group-item list-group-item-action list-group-item-primary">Perfil</a>
+          <a href="#" class="list-group-item list-group-item-action list-group-item-primary">Serviços</a>
+          <a href="#" class="list-group-item list-group-item-action list-group-item-primary">contatos</a>
+          <a href="#" class="list-group-item list-group-item-action list-group-item-primary">Depoimentos</a>
+
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <h3>Social</h3>
+        <div class="btn-group-vertical btn-block btn-group-lg" role="group">
+          <a href="#" class="btn btn-outline-primary"><i class="fab fa-facebook-square"></i> Facebook</a>
+          <a href="#" class="btn btn-outline-info"><i class="fab fa-twitter-square"></i> Twitter</a>
+          <a href="#" class="btn btn-outline-warning"><i class="fab fa-instagram-square"></i> Instagram</a>
+        </div>
+      </div>
+      <div class="col-12 mt-5">
+        <blockquote class="blockquote text-center">
+          <p class="mb-0">Frase Final</p>
+          <footer class="blockquote-footer">Frase Final <cite title="source title">Criador deste Frase</cite></footer>
+        </blockquote>
+      </div>
+    </div>
+
+  </div>
+  <!-- modal -->
+  <div class="modal fade" id="sitemodal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Titulo modal</h5>
+          <button type="button" class="close" data-dismiss="modal">
+            <span>&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-6">
+                <h5>titulo</h5>
+                <p>In facilisis, neque in fringilla blandit, mi neque accumsan tellus, porttitor scelerisque lectus
+                  neque vitae sapien. Phasellus ut nisi id urna dapibus accumsan.</p>
+              </div>
+              <div class="col-6">
+                <h5>titulo</h5>
+                <p>In facilisis, neque in fringilla blandit, mi neque accumsan tellus, porttitor scelerisque lectus
+                  neque vitae sapien. Phasellus ut nisi id urna dapibus accumsan.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">
+          fechar
+        </button>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <!-- JavaScript (Opcional) -->
+  <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+  <script src="node_modules/jquery/dist/jquery.js"></script>
+  <script src="node_modules/popper.js/dist/umd/popper.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+  <script>
+    $(function () {
+      $('[data-toggle="popover"]').popover()
+
+    })
+  </script>
+</body>
+
+</html>
